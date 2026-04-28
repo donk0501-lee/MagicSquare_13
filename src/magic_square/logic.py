@@ -39,6 +39,10 @@ def find_not_exist_nums(matrix: list[list[int]]) -> list[int]:
 def is_magic_square(matrix: list[list[int]]) -> bool:
     """0이 없는 완성 4×4에 대해 행·열·두 대각선이 각각 MAGIC_SUM이면 True."""
     for i in range(MATRIX_SIZE):
+        for j in range(MATRIX_SIZE):
+            if matrix[i][j] == CELL_BLANK:
+                return False
+    for i in range(MATRIX_SIZE):
         if sum(matrix[i][j] for j in range(MATRIX_SIZE)) != MAGIC_SUM:
             return False
     for j in range(MATRIX_SIZE):

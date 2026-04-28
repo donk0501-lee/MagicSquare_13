@@ -31,3 +31,6 @@ MSG_NOT_MAGIC_SQUARE = (
 
 DOMAIN_NOT_MAGIC_CODE = "NOT_MAGIC"
 DOMAIN_NOT_MAGIC_MESSAGE = "No valid placement for the two missing values."
+
+CODE_INTERNAL_ERROR = "INTERNAL_ERROR"
+MSG_INTERNAL_ERROR = "Unexpected error."
