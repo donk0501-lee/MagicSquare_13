@@ -6,4 +6,8 @@ src/magic_square.egg-info/SOURCES.txt
 src/magic_square.egg-info/dependency_links.txt
 src/magic_square.egg-info/requires.txt
 src/magic_square.egg-info/top_level.txt
+tests/test_boundary_red_skeleton.py
+tests/test_logic_red_skeleton.py
 tests/test_smoke.py
+tests/test_track_a_ui_red.py
+tests/test_track_b_logic_red.py
